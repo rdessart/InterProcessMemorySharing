@@ -11,7 +11,7 @@ struct InterprocessInfoStruct{
 	unsigned char* lock;
 };
 
-void createStorage(const char* filepath, char** dataStorage, int size, unsigned char** lock);
-void loadStorageFromFile(const char* filepath, int* outSize, char* outDataStorage, unsigned char* outLock);
+void createStorage(const char* filepath, char** dataStorage, int size, char** lock);
+void loadStorageFromFile(const char* filepath, int* outSize, char** outDataStorage, char** outLock);
 
 #endif
