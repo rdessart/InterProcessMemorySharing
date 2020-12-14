@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv)
 {
-	const char* filepath = "iobuffer.buf";
+	const char* filepath = "./dep/iobuffer.buf";
 	int size = sizeof(int) * 3;
 	char* lock = NULL;
 	char* dataStorage = NULL;

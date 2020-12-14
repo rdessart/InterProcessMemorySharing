@@ -1,3 +1,2 @@
-iobuffer.buf
-Interprocess.out
-Interprocess
+bin/*
+res/iobuffer.buf
